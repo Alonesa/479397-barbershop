@@ -18,13 +18,31 @@ line-height: 42px;
 font-size: 30px;
 text-transform: uppercase;
 }
+.feature-headers {
+font-family: "PT Sans Narrow";
+font-weight: 700;
+line-height: 42px;
+font-size: 30px;
+text-transform: uppercase;
+color: #f7f4f1;
+}
 
 h2 {
 color: black;
 }
+h2>b
+{
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+}
 
 h3 {
-color: #f7f4f1;
+ font-size: 24px;
+}
+
+span{
+color: black;
 }
 .button {
 	display: inline-block;
@@ -33,6 +51,7 @@ color: #f7f4f1;
 	background: #000000;
 	color: white;
 	font: inherit;
+  border: none;
 }
 
 .button:focus {
